@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function CalculateBMI()
+		{
+			var w, h, r;
+			w = document.getElementById( "w" ).value;
+			h = document.getElementById( "h" ).value;
+
+			window.alert( "Your weight is = " + w );
+		}
+		</script>
+</head>
+<body>
+<form>
+	weight (in lbs)<input type="text" name="w" id="w">
+	<br/>
+	height (in ft)<input type="text" name="h" id="h">
+	<br/>
+	<input type="button" name="b" id="b" value="Calculate BMI" onclick="CalculateBMI()">
+	<br/>
+	Your BMI is <input type="text" name="r" id="r">
+</form>
+</body>
+</html>
